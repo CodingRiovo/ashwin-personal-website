@@ -1,0 +1,69 @@
+body{
+    background-color: #EEEEEE;
+}
+.navigation-bar{
+    background-color: #000000;
+}
+.navigation-bar ul>li>a{
+    color: white;
+}
+h1{
+    color: #176B87;
+    text-align: center;
+    font-size: 7rem;
+    font-family: "Caveat", cursive;
+    padding: 10px;
+}
+h2{
+    font-size: 2rem;
+    color: #176B87;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    margin: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.underline{
+    color: #EEEEEE;
+}
+.intro-container{
+    background-color: #64CCC5;
+    padding: 40px 20px 10px 20px;
+}
+.centered-img{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.webdev-img{
+    height: 200px;
+}
+.downwards-flex{
+    padding: 50px;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.circle-crop-img{
+    margin: 30px;
+    height:200px;
+    width: 200px;
+}
+.projects-container{
+    padding: 50px;
+}
+.project-image{
+    margin-left: 2rem;
+}
+.bg-black{
+    background-color: #000000;
+}
+.color-white{
+    color: #EEEEEE;
+}

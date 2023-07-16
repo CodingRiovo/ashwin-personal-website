@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ashwin's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation-bar">
+
+        <header class="d-flex justify-content-center pb-1">
+            <ul class="nav nav-pills">
+              <li class="nav-link" ><a href="#home" class="nav-link">Home</a></li>
+              <li class="nav-link" ><a href="#about" class="nav-link">About me</a></li>
+              <li class="nav-link" ><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-link" ><a href="#contact" class="nav-link">Contact me</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="intro-container" id="home">
+        <div class="title-text">
+          <h1>I'm Ashwin.</h1>
+          <h2>a <span class="underline">student</span> and a casual <span class="underline">web developer</span>.</h2>
+        </div>
+        <div class="centered-img">
+            <img src="./Assets/student.png" alt="web development on various platforms" class="webdev-img">
+            <img src="./Assets/webdev.png" alt="web development on various platforms" class="webdev-img">
+        </div>
+      </div>
+    <div class="about-container" id="about">
+        <div class="downwards-flex">
+            <img src="./Assets/circle crop.png" alt="Circle cropped image of me" class="circle-crop-img">
+            <h2>Hello!</h2>
+            <h3>I am Ashwin Kotha, a college student who is currently learning web development. I know C, C++, HTML and CSS.</h3>
+        </div>
+    </div>
+    <div class="projects-container" id="projects">
+        <h2>Projects</h2>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7" >
+                <h2 class="featurette-heading fw-normal lh-1">Mondrian Painting</h2>
+                <p class="lead">This is a project that imitates one of the famous paintings by Piet Mondrian, who was a Dutch painter and art theoretician, who is regarded as one of the greatest artists of the 20th century. The painting was made completely using HTML and CSS in order to learn about CSS grid. </p>
+            </div>
+            <div class="col-md-5">
+                <a href="./Public/mondrian.html"><img src="./Assets/mondrian.png" alt="Mondrain painting" class="project-image" height="500" width="500"></a>
+            </div>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Tindog</h2>
+                <p class="lead">Tindog is a dating website - for dogs! The website itself does not have actual functionality to facilitate dogs dating each other, and is just a fun idea to learn the working of bootstrap.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://codingriovo.github.io/tindog-website/"><img src="./Assets/tindog.png" alt="Tindog website" class="project-image" width="500"></a>
+            </div>
+        </div>
+        
+        <hr class="featurette-divider">
+<!--         
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            </div>
+            <div class="col-md-5">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider"> -->
+
+    </div>
+    <div class="contact-container" id="contact">
+
+    </div>
+    <div class="contact-container" id="contact">
+        <h2 class="pb-2 border-bottom section-title">Contact Me</h2>
+        <h3 style="padding: 50px 0 20px" >
+          I would love to talk to you and collaborate on projects!
+        </h3>
+        <div class="downwards-flex">
+
+            <p style="padding-bottom: 20px">
+              Contact me by clicking on the button below ~
+            </p>
+            <a style="padding: 10px" class="btn btn-lg rounded-pill btn-dark px-4" href="mailto:gamingriovo@gmail.com">Send me an E-mail</a>
+        </div>
+      </div>
+      <div class="bg-black">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-4 mt-4">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 color-white">© 2023 Ashwin Kotha</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/ashwin-kotha-b7b5b625b/"><img src="./Assets/linkedin.png" alt="Linkedin logo" width="40px"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://github.com/CodingRiovo"><img src="./Assets/github.png" alt="Linkedin logo" width="40px"></a></li>
+          </ul>
+        </footer>
+      </div>
+</body>
+</html>
